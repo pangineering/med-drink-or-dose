@@ -10,10 +10,10 @@ Using AI to detect an object in the video and recognize the object whether ti is
 
 ## Dataset
 ### Detail
-**Data Format:** Video.mp4
-**Tool for labeling:** Roboflow
-**Number of Classes:** 2, Drink and Dose
+- **Data Format:** Video.mp4
+- **Tool for labeling:** Roboflow
+- **Number of Classes:** 2, Drink and Dose
 ### Data Split
-***Train:*** 648
-***Valid:*** 176
-***Test:*** 115
+- ***Train:*** 648
+- ***Valid:*** 176
+- ***Test:*** 115
