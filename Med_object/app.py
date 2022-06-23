@@ -23,8 +23,8 @@ def detect(image, net):
     preds = net.forward()
     return preds
 
-def load_capture(video):
-    capture = cv2.VideoCapture(video)
+def load_capture():
+    capture = cv2.VideoCapture("sample.mp4")
 
     return capture
 
@@ -83,8 +83,8 @@ def format_yolov5(frame):
     result[0:row, 0:col] = frame
     return result
 
-video = "sample.mp4"
-capture = load_capture(video)
+
+capture = load_capture()
 
 start = time.time_ns()
 frame_count = 0
