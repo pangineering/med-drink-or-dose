@@ -3,6 +3,14 @@ import cv2
 import time
 import sys
 import numpy as np
+import argparse
+
+
+parser = argparse.ArgumentParser(description='select a video')
+parser.add_argument('--video',default="sample.mp4", type=str)
+
+parser.parse_args()
+opt = parser.parse_known_args()[0]
 
 def format_yolov5(source):
 
@@ -24,7 +32,7 @@ def detect(image, net):
     return preds
 
 def load_capture():
-    capture = cv2.VideoCapture("sample_2.mp4")
+    capture = cv2.VideoCapture(opt.video)
 
     return capture
 
