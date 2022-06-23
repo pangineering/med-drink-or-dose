@@ -2,6 +2,9 @@
 build during Botnoi internship
 Using AI to detect an object in the video and recognize the object whether ti is drink or dose.
 
+[![wakatime](https://wakatime.com/badge/user/8bbe4179-ccdc-4a7d-98ba-0127e3db108c/project/36682555-05f7-4f29-a969-62c8cfadad9a.svg)](https://wakatime.com/badge/user/8bbe4179-ccdc-4a7d-98ba-0127e3db108c/project/36682555-05f7-4f29-a969-62c8cfadad9a)
+
+
 ## Tech Stack
 ### Code Editor
 ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252) ![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)  
@@ -29,4 +32,4 @@ to use real time
 ```
 
 ## Contribution
-[![Contributors over time](https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=pangineering/med-drink-or-dose)](https://www.apiseven.com/en/contributor-graph?chart=contributorOverTime&repo=pangineering/med-drink-or-dose)
+@pangineering
