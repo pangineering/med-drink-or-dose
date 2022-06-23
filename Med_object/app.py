@@ -7,6 +7,7 @@ import argparse
 
 
 parser = argparse.ArgumentParser(description='select a video')
+parser.add_argument('--media',default="video", type=str)
 parser.add_argument('--video',default="sample.mp4", type=str)
 
 parser.parse_args()
@@ -92,6 +93,7 @@ def format_yolov5(frame):
     return result
 
 
+
 capture = load_capture()
 
 start = time.time_ns()
@@ -121,7 +123,14 @@ print(net)
 while True:
 
 #    _, frame = capture.read()
-    _, frame = capture.read()
+    if opt.media == 'video':
+        _, frame = capture.read()
+    elif opt.media == 'live':
+        vid = cv2.VideoCapture(0)
+        _, frame = vid.read()
+    else:
+        print("No option is selected")
+        break
 
 
 
