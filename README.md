@@ -2,7 +2,7 @@
 build during Botnoi internship
 Using AI to detect an object in the video and recognize the object whether ti is drink or dose.
 
-[![wakatime](https://wakatime.com/badge/github/pangineering/med-drink-or-dose.svg)](https://wakatime.com/badge/github/pangineering/med-drink-or-dose) [![wakatime](https://wakatime.com/badge/user/8bbe4179-ccdc-4a7d-98ba-0127e3db108c/project/36682555-05f7-4f29-a969-62c8cfadad9a.svg)](https://wakatime.com/badge/user/8bbe4179-ccdc-4a7d-98ba-0127e3db108c/project/36682555-05f7-4f29-a969-62c8cfadad9a)
+[![wakatime](https://wakatime.com/badge/user/8bbe4179-ccdc-4a7d-98ba-0127e3db108c/project/36682555-05f7-4f29-a969-62c8cfadad9a.svg)](https://wakatime.com/badge/user/8bbe4179-ccdc-4a7d-98ba-0127e3db108c/project/36682555-05f7-4f29-a969-62c8cfadad9a)
 
 
 ## Tech Stack
