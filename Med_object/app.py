@@ -24,7 +24,7 @@ def detect(image, net):
     return preds
 
 def load_capture():
-    capture = cv2.VideoCapture("sample.mp4")
+    capture = cv2.VideoCapture("sample_2.mp4")
 
     return capture
 
