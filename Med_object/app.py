@@ -23,8 +23,9 @@ def detect(image, net):
     preds = net.forward()
     return preds
 
-def load_capture():
-    capture = cv2.VideoCapture("sample.mp4")
+def load_capture(video):
+    capture = cv2.VideoCapture(video)
+
     return capture
 
 def wrap_detection(input_image, output_data):
@@ -82,15 +83,16 @@ def format_yolov5(frame):
     result[0:row, 0:col] = frame
     return result
 
-capture = load_capture()
+video = "sample.mp4"
+capture = load_capture(video)
 
 start = time.time_ns()
 frame_count = 0
 total_frames = 0
 fps = -1
 
-INPUT_WIDTH = 1280
-INPUT_HEIGHT = 720
+INPUT_WIDTH = 640
+INPUT_HEIGHT = 640
 SCORE_THRESHOLD = 0.2
 NMS_THRESHOLD = 0.4
 CONFIDENCE_THRESHOLD = 0.4
@@ -104,12 +106,16 @@ print("Success")
 print(net)
 
 
+
+    
+
+
 while True:
 
+#    _, frame = capture.read()
     _, frame = capture.read()
-    if frame is None:
-        print("End of stream")
-        break
+
+
 
     inputImage = format_yolov5(frame)
     outs = detect(inputImage, net)
