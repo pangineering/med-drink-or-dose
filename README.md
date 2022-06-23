@@ -17,3 +17,11 @@ Using AI to detect an object in the video and recognize the object whether ti is
 - ***Train:*** 648
 - ***Valid:*** 176
 - ***Test:*** 115
+
+## Run the program (app.py)
+```shell
+python3 app.py --media "video" --video "sample_2.mp4"
+```
+```shell
+python3 app.py --media "live"
+```
