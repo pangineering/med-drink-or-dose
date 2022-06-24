@@ -13,18 +13,7 @@ parser.add_argument('--video',default="sample.mp4", type=str)
 parser.parse_args()
 opt = parser.parse_known_args()[0]
 
-def format_yolov5(source):
 
-    # put the image in square big enough
-    col, row, _ = source.shape
-    _max = max(col, row)
-    resized = np.zeros((_max, _max, 3), np.uint8)
-    resized[0:col, 0:row] = source
-    
-    # resize to 640x640, normalize to [0,1[ and swap Red and Blue channels
-    result = cv2.dnn.blobFromImage(resized, 1/255.0, (640, 640), swapRB=True)
-    
-    return result
 
 def detect(image, net):
     blob = cv2.dnn.blobFromImage(image, 1/255.0, (INPUT_WIDTH, INPUT_HEIGHT), swapRB=True, crop=False)
@@ -103,9 +92,9 @@ fps = -1
 
 INPUT_WIDTH = 640
 INPUT_HEIGHT = 640
-SCORE_THRESHOLD = 0.2
-NMS_THRESHOLD = 0.4
-CONFIDENCE_THRESHOLD = 0.7
+SCORE_THRESHOLD = 0.6 #0.2
+NMS_THRESHOLD = 0.6 #0.4
+CONFIDENCE_THRESHOLD = 0.8
 colors = [(255, 255, 0), (0, 255, 0), (0, 255, 255), (255, 0, 0)]
 
 class_list = ['Dose','Drink']
