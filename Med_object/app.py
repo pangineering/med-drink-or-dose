@@ -23,6 +23,7 @@ def detect(image, net):
 
 def load_capture():
     capture = cv2.VideoCapture(opt.video)
+    capture.set(cv2.CAP_PROP_FPS,10) 
 
     return capture
 
