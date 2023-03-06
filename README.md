@@ -105,10 +105,8 @@ to use real time
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [X] Live detection on the webcam
+- [X] Detection on video
 
 
 
