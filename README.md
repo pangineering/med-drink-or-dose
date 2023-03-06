@@ -42,7 +42,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Using AI to detect an object in the video and recognize the object whether ti is drink or dose.
 
