@@ -8,9 +8,7 @@
 <h3 align="center">Med Object Detection: Drink or Dose</h3>
 
   <p align="center">
-    build during Botnoi internship
-
-    Using AI to detect an object in the video and recognize the object whether ti is drink or dose.
+    Build during Botnoi internship
 </p>
 </div>
 
@@ -46,7 +44,18 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Using AI to detect an object in the video and recognize the object whether ti is drink or dose.
+
+### Dataset
+#### Detail
+- **Data Format:** Video.mp4
+- **Tool for labeling:** Roboflow
+- **Number of Classes:** 2, Drink and Dose
+#### Data Split
+- ***Train:*** 648
+- ***Valid:*** 176
+- ***Test:*** 115
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,15 +76,6 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 
-## Dataset
-### Detail
-- **Data Format:** Video.mp4
-- **Tool for labeling:** Roboflow
-- **Number of Classes:** 2, Drink and Dose
-### Data Split
-- ***Train:*** 648
-- ***Valid:*** 176
-- ***Test:*** 115
 
 ## Run the program (app.py)
 to use with video
