@@ -1,8 +1,18 @@
-# Med Object Detection: Drink or Dose
-build during Botnoi internship
-Using AI to detect an object in the video and recognize the object whether ti is drink or dose.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/github_username/repo_name">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-[![wakatime](https://wakatime.com/badge/user/8bbe4179-ccdc-4a7d-98ba-0127e3db108c/project/36682555-05f7-4f29-a969-62c8cfadad9a.svg)](https://wakatime.com/badge/user/8bbe4179-ccdc-4a7d-98ba-0127e3db108c/project/36682555-05f7-4f29-a969-62c8cfadad9a)
+<h3 align="center">Med Object Detection: Drink or Dose</h3>
+
+  <p align="center">
+    build during Botnoi internship
+
+    Using AI to detect an object in the video and recognize the object whether ti is drink or dose.
+</p>
+</div>
 
 
 ## Tech Stack
